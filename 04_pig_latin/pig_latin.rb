@@ -7,16 +7,16 @@ def translate(string)
   words_trans.join(" ")
 end 
 
-def punctuation(word) 
-  punct = ['.', ',', ';', '?', '!', ':']
-  word_punct = ""
-  word.chars.each do |i|
-    if punct.include?(i)
-      word_punct.delete!(i)
-      word_punct << i 
-    end
-  end
-end
+# def punctuation(word) 
+#   punct = ['.', ',', ';', '?', '!', ':']
+#   word_punct = ""
+#   word.chars.each do |i|
+#     if punct.include?(i)
+#       word_punct.delete!(i)
+#       word_punct << i 
+#     end
+#   end
+# end
 
 # def capitalization (words_trans)
 # alphab_cap = ("A".."Z").to_a
