@@ -17,6 +17,7 @@ end
 
 
 
-
     
-
+title1 = Book.new
+title1.title = "war and peace"
+p title1.title
